@@ -1,6 +1,6 @@
 pipeline
 {
-agent {docker 'maven:latest'}
+agent {docker 'maven:3.5-alpine'}
 stages
 {
 stage('checkout'){
